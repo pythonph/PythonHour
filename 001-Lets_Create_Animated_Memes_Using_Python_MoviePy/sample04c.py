@@ -7,11 +7,10 @@ subtitle = (TextClip("use pep8", font="Impact", fontsize=80, color="White")
             .set_position(("center", "bottom"))
 )
 
-clip2 = CompositeVideoClip([clip2, subtitle])
-
-combined = concatenate_videoclips([clip1, clip2])
+clip3 = CompositeVideoClip([clip2, subtitle])
+combined = concatenate_videoclips([clip1, clip3], method="compose")
 
 doge = ImageClip("input/dog2.png").set_duration(3)
-composite = CompositeVideoClip([combined, subtitle, doge])
+composite = CompositeVideoClip([combined, doge])
 
-composite.write_gif("output/example3.gif")
+composite.write_gif("output/example3c.gif")

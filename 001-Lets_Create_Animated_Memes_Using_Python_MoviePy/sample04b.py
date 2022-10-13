@@ -14,4 +14,4 @@ doge = ImageClip("input/dog.png").set_duration(10)
 #doge = ImageClip("input/dog2.png").set_duration(3)
 composite = CompositeVideoClip([combined, subtitle, doge])
 
-composite.write_gif("output/example3.gif")
+composite.write_gif("output/example3b.gif")
