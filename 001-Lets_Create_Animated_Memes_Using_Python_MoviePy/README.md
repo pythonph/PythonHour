@@ -1,8 +1,10 @@
 # Let's Create Animated Memes Using Python MoviePy
 
-Youtube link: https://www.youtube.com/watch?v=7L9EE1Llu_8
-MoviePy: https://zulko.github.io/moviepy/index.html
-Youtube-dl: https://youtube-dl.org/
+Youtube link: https://www.youtube.com/watch?v=7L9EE1Llu_8  
+
+MoviePy: https://zulko.github.io/moviepy/index.html  
+
+Youtube-dl: https://youtube-dl.org/  
 
 ## Note on bug in sample04c.py that was in display during the show
 
